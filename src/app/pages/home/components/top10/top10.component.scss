@@ -1,0 +1,29 @@
+.top10Div {
+  padding-top: 42rem;
+  padding-left: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: -3rem;
+  .top10Gallery {
+    display: flex;
+    
+    img {
+      margin: 1rem;
+      height: 300px;
+      border-radius: 8px;
+    }
+    .itemDiv {
+      display: flex;
+      align-items: center;
+      margin-top: -5rem;
+      h1 {
+        color: black;
+        margin: 0;
+        margin-right: -5.5rem;
+        font-size: 400px;
+        text-shadow: -3px -3px 0 #3A3A3A, 3px -3px 0 #3A3A3A, -3px 3px 0 #3A3A3A, 3px 3px 0 #3A3A3A;
+      }
+    }
+  }
+}

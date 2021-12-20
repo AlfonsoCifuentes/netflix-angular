@@ -1,0 +1,52 @@
+.footerDiv {
+  margin-top: 3rem;
+  padding-left: 75px;
+  padding-top: 2rem;
+  width: 100%;
+  bottom: 0;
+  color: rgb(148, 147, 147);
+  font-size: 1.2rem;
+
+  .iconsDiv {
+    display: flex;
+    flex-direction: row;
+    margin-left: -2rem;
+    .itemDiv {
+      padding-left: 2rem;
+      img {
+        height: 50px;
+
+      }
+    }
+  }
+  .linksDiv {
+    margin-left: -2.5rem;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      list-style: none;
+      li {
+        margin-top: 2rem;
+        width: 300px;
+      }
+    }
+  }
+  .buttonDiv {
+      padding-top: 2rem;
+    button {
+      background-color: #141414;
+      color: rgb(148, 147, 147);
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      border-style: solid;
+    }
+  }
+
+  .copyrightDiv{
+      padding-top: 2rem;
+      font-size: 0.7rem;
+      width: 95%;
+  }
+}

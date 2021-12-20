@@ -1,0 +1,66 @@
+nav{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 2rem;
+    top: 0;
+    padding: 1.5rem 4rem;
+    width: 100%;
+    background-color: #141414;
+    box-shadow: 0px 5px 23px 11px #141414;
+    
+    .logoLinks{
+
+        display: flex;
+        max-width: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        width: 100%;
+        .logoImg{
+            height: 37.5px;
+        }
+        .navLinks{
+            
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            ul{
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                color: white;
+                li{
+                    margin-right: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .menuDiv{
+        margin-right: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icons{
+            .lupa{
+                height: 30px;
+                margin-right: 40px;
+            }
+            .campana{
+                height: 35px;
+                margin-right: 30px;
+            }
+            .avatar{
+                height: 50px;
+                border-radius: 6px;
+            }
+        }
+    }
+
+
+}

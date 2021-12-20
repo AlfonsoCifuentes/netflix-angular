@@ -1,0 +1,11 @@
+<div class="top10Div">
+    <h2>{{top10.title}}</h2>
+    <div class="top10Gallery">        
+        <div class="itemDiv" *ngFor="let image of top10.imgGallery; let i = index">
+            <h1>{{i + 1}}</h1>
+            <img src="{{image.src}}" alt="{{image.alt}}">
+        </div>
+    </div>
+
+
+</div>

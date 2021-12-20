@@ -1,0 +1,17 @@
+.filmsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 75px;
+    padding-top: 2rem;
+    .filmsGallery{
+        display: flex;
+        .itemDiv{
+            
+            img{
+                margin-right: 8px;
+                height: 192px;
+                border-radius: 7px;
+            }
+        }
+    }
+}
